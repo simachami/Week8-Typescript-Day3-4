@@ -1,0 +1,25 @@
+{
+  "name": "webpack-cart",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "webpack-dev-server",
+    "build": "webpack --watch",
+    "start": "npm-run-all --parallel build serve",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ts-loader": "^9.4.4",
+    "uuid": "^9.0.0",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4"
+  },
+  "devDependencies": {
+    "typescript": "^5.1.6",
+    "webpack-dev-server": "^4.15.1"
+  }
+}
